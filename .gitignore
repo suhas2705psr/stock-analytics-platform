@@ -1,0 +1,35 @@
+﻿# Virtual environments
+.venv/
+.env/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Data files (too large for GitHub)
+data/raw/
+data/processed/
+*.parquet
+*.csv
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.env
+secrets.py
+
